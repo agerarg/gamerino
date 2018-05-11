@@ -1,5 +1,3 @@
-﻿  stdafx.cpp
-  CowsAndBulls.cpp
-  FBullAndCaws.cpp
-  Generando código...
+﻿  FBullAndCaws.cpp
+d:\webselar\node\gamedev\gamerino\solucion\cowsandbulls\fbullandcaws.cpp(36): warning C4018: '<': no coinciden signed/unsigned
   CowsAndBulls.vcxproj -> D:\WEBSELAR\NODE\gamedev\gamerino\Solucion\Debug\CowsAndBulls.exe
