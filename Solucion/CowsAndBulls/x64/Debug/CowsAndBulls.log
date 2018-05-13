@@ -1,0 +1,5 @@
+﻿  FBullAndCaws.cpp
+e:\node\github\gamerino\solucion\cowsandbulls\fbullandcaws.cpp(30): warning C4267: 'return': conversion from 'size_t' to 'int32', possible loss of data
+e:\node\github\gamerino\solucion\cowsandbulls\fbullandcaws.cpp(56): warning C4267: 'initializing': conversion from 'size_t' to 'int32', possible loss of data
+e:\node\github\gamerino\solucion\cowsandbulls\fbullandcaws.cpp(57): warning C4267: 'initializing': conversion from 'size_t' to 'int32', possible loss of data
+  CowsAndBulls.vcxproj -> E:\NODE\GitHub\gamerino\Solucion\x64\Debug\CowsAndBulls.exe

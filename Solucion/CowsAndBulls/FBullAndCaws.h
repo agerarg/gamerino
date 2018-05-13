@@ -1,5 +1,7 @@
 #pragma once
 #include <string>
+#include <map>
+#define TMap std::map
 using int32 = int;
 using FString = std::string;
 
@@ -9,6 +11,14 @@ struct BullCawCount
 	int caw = 0;
 };
 
+enum class EGuessStatus {
+	NULO,
+	OK,
+	error_lenght,
+	error_isogram,
+	error_lowercase
+};
+
 class FBullAndCaws {
 
 public:
@@ -16,11 +26,17 @@ public:
 	int32 getMaxTries() const;
 	int32 getCurrentTry() const;
 	bool IsGameWon() const;
-	bool CheckGuessValidate(FString palabra);
+	int32 cantidadCaracteres() const;
+	EGuessStatus CheckGuessValidate(FString);
 
-	BullCawCount submitGuess(FString Guess);
+	BullCawCount submitGuess(FString);
 private:
 	int32 maxTries;
 	int32 CurrentTrie;
 	FString palabraLoca;
+	bool yourAreWinner;
+
+	bool isIsogram(FString) const;
+	bool isLowerCase(FString) const;
+
 };
